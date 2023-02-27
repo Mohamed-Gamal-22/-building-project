@@ -61,8 +61,7 @@
     top: 40%;
     color: #fff;
     width: 100%;
-    text-align: center;
-    
+    text-align: center; 
 }
 
 .over{
@@ -117,6 +116,9 @@
 
     .slider .over h2:last-of-type{
         font-size: 35px;
+    }
+    .content{
+        top: 35%;
     }
 }
 @media (max-width: 500px){
