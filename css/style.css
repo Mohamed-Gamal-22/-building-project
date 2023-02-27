@@ -29,7 +29,9 @@
 .navbar a{
     color: #ccc !important;
 }
-
+.navbar-toggler{
+    border: none !important;
+}
 .navbar-toggler:focus{
     outline: 0 !important;
     box-shadow: 0 0 0 !important;
