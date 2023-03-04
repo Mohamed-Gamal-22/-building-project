@@ -215,14 +215,14 @@
 }
 
 .choose .item i{
-    font-size: 60px;
+    font-size: 40px;
     margin-bottom: 15px;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    padding: 10px;
+    padding: 15px;
     border: 5px solid #fecb10;
 }
 
@@ -238,35 +238,7 @@
 
 /* start serve */
 
-.serv .container .row .col-12 h2{
-   text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin: 60px auto
-}
-
-.serv .container .row .col-lg-4 img{
-    max-width: 100%
-}
-
-.serv .container .row .col-lg-4 h4{
-    text-transform: uppercase;
-    font-weight: bold;
-    margin: 20px 0
-}
-
-
-.serv .container .row .col-lg-4 p{
-    text-align: justify
-}
-
-
-.serv .container .row .col-lg-4 button{
-    color: #fff;
-    padding: 10px 30px;
-    text-transform: uppercase;
-    margin-bottom: 50px
-}
+/* all are inline style */
 
 /* end serve */
 
