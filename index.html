@@ -6,6 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/building.png" />
+    <!-- animate.css -->
+    <link rel="stylesheet" href="css/animate.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <style>
+      body,
+      html {
+        overflow-x: hidden;
+      }
+    </style>
   </head>
   <body>
     <!-- start header     -->
@@ -83,9 +96,18 @@
     <div class="slider">
       <div class="over">
         <div class="content">
-          <p class="firstp text-capitalize mb-0">we are certified engineers</p>
-          <h2 class="text-warning">construction service</h2>
-          <h2>creative & profissional</h2>
+          <p
+            class="firstp text-capitalize mb-0 wow animate__backInLeft"
+            data-wow-delay=".3s"
+          >
+            we are certified engineers
+          </p>
+          <h2 class="text-warning wow animate__backInLeft" data-wow-delay=".4s">
+            construction service
+          </h2>
+          <h2 class="wow animate__backInLeft" data-wow-delay=".5s">
+            creative & profissional
+          </h2>
           <p class="lastp">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore,
             molestias voluptatum itaque amet architecto ipsam autem quidem
@@ -101,7 +123,7 @@
     <div id="welcome" class="welcome">
       <div class="container">
         <div class="row py-4">
-          <div class="col-lg-7">
+          <div class="col-lg-7 wow animate__fadeIn" data-wow-delay=".4s">
             <div class="item p-3">
               <h2>welcome to our company</h2>
               <h4>aliquam lacus purus, auctor malesuda</h4>
@@ -122,7 +144,7 @@
               <button type="button" class="btn btn-warning">know more</button>
             </div>
           </div>
-          <div class="col-lg-5">
+          <div class="col-lg-5 wow animate__fadeIn" data-wow-delay=".4s">
             <img class="img-fluid" src="images/welcome.jpeg" />
           </div>
         </div>
@@ -143,7 +165,10 @@
             printer took
           </p>
 
-          <div class="col-lg-3 col-md-6 col-xm-12 my-4">
+          <div
+            class="col-lg-3 col-md-6 col-xm-12 my-4 wow animate__fadeInLeft"
+            data-wow-delay=".4s"
+          >
             <div class="item w-100 p-3 text-center">
               <i class="fa-solid fa-volleyball"></i>
               <h4>we delever quality</h4>
@@ -153,7 +178,10 @@
               </p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-xm-12 my-4">
+          <div
+            class="col-lg-3 col-md-6 col-xm-12 my-4 wow animate__fadeInLeft"
+            data-wow-delay=".4s"
+          >
             <div class="item w-100 p-3 text-center">
               <i class="fa-solid fa-volleyball"></i>
               <h4>we delever quality</h4>
@@ -163,7 +191,10 @@
               </p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-xm-12 my-4">
+          <div
+            class="col-lg-3 col-md-6 col-xm-12 my-4 wow animate__fadeInRight"
+            data-wow-delay=".4s"
+          >
             <div class="item w-100 p-3 text-center">
               <i class="fa-solid fa-volleyball"></i>
               <h4>we delever quality</h4>
@@ -173,7 +204,10 @@
               </p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-xm-12 my-4">
+          <div
+            class="col-lg-3 col-md-6 col-xm-12 my-4 wow animate__fadeInRight"
+            data-wow-delay=".4s"
+          >
             <div class="item w-100 p-3 text-center">
               <i class="fa-solid fa-volleyball"></i>
               <h4>we delever quality</h4>
@@ -243,7 +277,10 @@
       <div class="container">
         <div class="row g-4">
           <h2 class="text-center text-capitalize">our services</h2>
-          <div class="col-lg-4 col-md-6">
+          <div
+            class="col-lg-4 col-md-6 wow animate__fadeInLeft"
+            data-wow-delay=".4s"
+          >
             <div class="item">
               <img class="img-fluid" src="images/rawImage.jpg" />
               <h4 class="my-3 text-capitalize">constraction management</h4>
@@ -256,7 +293,10 @@
               <button type="button" class="btn btn-warning">know more</button>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6">
+          <div
+            class="col-lg-4 col-md-6 wow animate__fadeInLeft"
+            data-wow-delay=".4s"
+          >
             <div class="item">
               <img class="img-fluid" src="images/qwe.jpg" />
               <h4 class="my-3 text-capitalize">constraction management</h4>
@@ -269,7 +309,10 @@
               <button type="button" class="btn btn-warning">know more</button>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6">
+          <div
+            class="col-lg-4 col-md-6 wow animate__fadeInRight"
+            data-wow-delay=".4s"
+          >
             <div class="item">
               <img class="img-fluid" src="images/ert.jpg" />
               <h4 class="my-3 text-capitalize">constraction management</h4>
@@ -471,6 +514,9 @@
       src="https://kit.fontawesome.com/e56e357de2.js"
       crossorigin="anonymous"
     ></script>
-    <!-- <script src="js/form.js"></script> -->
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
